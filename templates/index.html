@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+            SpaceX
+        </title>
+    </head>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <body>
+        <h1>
+            Резюме
+        </h1>
+        <p class="info">
+            Резюме в компанию SpaceX
+        </p>
+        <br><br>
+
+        <div class="text-field">
+          <form method="get" enctype="multipart/form-data" action="http://127.0.0.1:5000/load">
+            <label class="text-field__label" for="email">Имя и фамилия</label>
+            <input class="text-field__input" type="name" placeholder="Иван Иванов" required="required" name="name">
+
+            <label class="text-field__label" for="age">Возраст</label>
+            <input class="text-field__input" type="age" placeholder="27" required="required" name="age">
+
+            <label class="text-field__label" for="skill">Навык</label>
+            <input class="text-field__input" type="skill" placeholder="Backend-разработчик" required="required" name="skill">
+
+            <label class="text-field__label" for="stage">Стаж</label>
+            <input class="text-field__input" type="stage" placeholder="5" required="required" name="stage">
+
+            <label class="text-field__label" for="for_me">О себе</label>
+            <input class="text-field__input" type="for_me" placeholder="Я трудолюбивый и общительный" required="required" name="desc">
+
+            <label class="text-field__label" for="email">Email для связи</label>
+            <input class="text-field__input" type="email" placeholder="wednesday@gmail.com" required="required" name="email">
+
+            <input class="submit" type="image" src="https://img.icons8.com/doodle/256/paper-plane--v1.png" width="60" height="60">
+          </form>
+        </div>
+    </body>
+</html>
+
